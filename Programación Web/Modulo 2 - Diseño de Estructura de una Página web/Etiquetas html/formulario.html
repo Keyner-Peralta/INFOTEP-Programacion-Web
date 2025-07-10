@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario hecho por Keyner</h1>
+    <form action="">
+
+        <h2><u>Bienvenido al formulario</u></h2>
+
+        <!-- Primer nombre -->
+        <label for="firstName">
+            Introduce tu primer <b>nombre</b>:
+        </label>
+        <input type="text" name="firstName" id="firstName" required>
+
+        <br>
+        <br>
+
+        <!-- Primer Apellido -->
+        <label for="firstFamilyName">
+            Introduce tu primer <b>apellido</b>:
+        </label>
+        <input type="text" name="firstFamilyName" id="firstFamilyName" required>
+        
+        <br>
+        <br>
+
+        <label for="age">
+            Introduce tu <b>edad</b>:
+        </label>
+        <input type="number" name="age" id="age" required >
+
+        <br>
+        <br>
+        
+        <input type="radio" name="gender" id="male">
+        <label for="male">
+            Hombre
+        </label>
+
+        <br>
+        <br>
+        
+        <input type="radio" name="gender" id="female">
+        <label for="male">
+            Mujer
+        </label>
+
+        <br>
+        <br>
+        <label for="county">Selecciona tu <b>país</b>:</label>
+        <select name="county" id="county" required>
+            <option value="">-- Selecciona un país --</option>
+
+            <optgroup label="África">
+                <option value="NG">Nigeria</option>
+                <option value="EG">Egipto</option>
+                <option value="ZA">Sudáfrica</option>
+                <option value="KE">Kenia</option>
+                <option value="DZ">Argelia</option>
+            </optgroup>
+
+            <optgroup label="América">
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="CA">Canadá</option>
+                <option value="CL">Chile</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CU">Cuba</option>
+                <option value="DO">República Dominicana</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+                <option value="US">Estados Unidos</option>
+                <option value="VE">Venezuela</option>
+            </optgroup>
+
+            <optgroup label="Asia">
+                <option value="CN">China</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="JP">Japón</option>
+                <option value="SA">Arabia Saudita</option>
+                <option value="KR">Corea del Sur</option>
+            </optgroup>
+
+            <optgroup label="Europa">
+                <option value="DE">Alemania</option>
+                <option value="ES">España</option>
+                <option value="FR">Francia</option>
+                <option value="IT">Italia</option>
+                <option value="RU">Rusia</option>
+                <option value="GB">Reino Unido</option>
+            </optgroup>
+
+            <optgroup label="Oceanía">
+                <option value="AU">Australia</option>
+                <option value="NZ">Nueva Zelanda</option>
+                <option value="FJ">Fiyi</option>
+                <option value="PG">Papúa Nueva Guinea</option>
+            </optgroup>
+
+        </select>
+
+        <br>
+        <br>
+        <label for="mail">
+            Introduce tu <b>email</b>:
+        </label>
+        <input type="email" name="email" id="mail">
+
+        <br>
+        <br>
+        <label for="message">
+            Mandar email a Keyner
+        </label>
+        <textarea name="message" id="message" >
+
+        </textarea>
+
+
+        <br>
+        <br>
+
+        <a href="https://youtu.be/XfELJU1mRMg?si=nShQz4qDGi60P21A">Terminos y Servicios</a>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Resetear
+        </button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de html</title>
+</head>
+<body>
+
+    <form action="">
+        <label for="primerNombre">
+            Ingrese su primer nombre:  
+        </label>
+        <input type="text" id="primerNombre" placeholder="John">
+        <br>
+        <br>
+        <label for="apellido">
+            Ingrese su apellido:  
+        </label>
+        <input type="text" id="apellido" placeholder="Doe">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <label>Ingrese el Sexo</label>
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Masculino</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Femenino</label>
+        <br>
+        <br>
+
+        <p>Seleciona tu pais</p>
+        <select name="country" id="country">
+
+            <option value="RD">República Dominicana</option>
+            <option value="HT">Haiti</option>
+        </select>
+
+        <p>Selecciona otro pais pero por el continente</p>
+        <select name="continentes" id="continentes">
+            <optgroup label="America">
+                <option value="RD">República Dominicana</option>
+                <option value="HT">Haiti</option>
+                <option value="MX">México</option>
+            </optgroup>
+
+            <optgroup label="Asia">
+                <option value="CH">China</option>
+                <option value="JP">Japon</option>
+                <option value="Kor">Corea</option>
+            </optgroup>
+
+            <optgroup label="Africa">
+                <option value="ken">Kenia</option>
+                <option value="sud">Sudafrica</option>
+                <option value="egip">Egipto</option>
+            </optgroup>
+
+            <optgroup label="Europa">
+                <option value="RU">Rusia</option>
+                <option value="ES">España</option>
+                <option value="FR">Francia</option>
+            </optgroup>
+        </select>
+    </form>
+    <br>
+    <br>
+    <!-- tabla -->
+    <table border="2">
+        <thead>
+            <tr> <!-- table row / fila de tabla -->
+                <th>NO.</th>
+                <th>NOMBRE</th> <!--columna-->
+                <th>APELLIDO</th>
+                <th>EDAD</th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Keyner Miguel</td>
+                <td>Peralta Pérez</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
